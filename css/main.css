@@ -8,7 +8,7 @@
 }
 body {
     font-family: Intro-Light;
-    font-size: 21px;
+    font-size: 17px;
 }
 /* ---------------------------------------------------
 
@@ -17,9 +17,21 @@ body {
 ------------------------------------------------------ */
 
 .footer-main-wrapper {
-    background: blue;
+    background: #c1c1c1;
     padding: 89px 0;
 }
 .aa {
     border: 1px solid black;
+}
+.footer-adjust ul {
+    list-style-type: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.footer-adjust ul li {
+    padding-bottom: 5px;
+}
+.footer-adjust ul li a {
+    text-decoration: none;
+    color: #000;
 }
