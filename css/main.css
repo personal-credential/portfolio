@@ -17,5 +17,9 @@ body {
 ------------------------------------------------------ */
 
 .footer-main-wrapper {
-    background: red;
+    background: blue;
+    padding: 89px 0;
+}
+.aa {
+    border: 1px solid black;
 }
