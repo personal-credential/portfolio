@@ -54,4 +54,8 @@ body {
 .bbb {
     padding: 34px 21px;
     border: 1px solid red;
+    text-align: center;
+}
+.bbb > div> i {
+    font-size: 50px;
 }
