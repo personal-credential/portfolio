@@ -6,3 +6,16 @@
     font-family: Intro-Light;
     src: url(/fonts/Intro-Light.otf)
 }
+body {
+    font-family: Intro-Light;
+    font-size: 21px;
+}
+/* ---------------------------------------------------
+
+            Footer Style Section Started
+
+------------------------------------------------------ */
+
+.footer-main-wrapper {
+    background: red;
+}
