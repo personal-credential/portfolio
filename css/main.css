@@ -18,7 +18,7 @@ body {
 
 .footer-main-wrapper {
     background: #c1c1c1;
-    padding: 89px 0;
+    padding-top: 89px;
 }
 .aa {
     border: 1px solid black;
@@ -34,4 +34,24 @@ body {
 .footer-adjust ul li a {
     text-decoration: none;
     color: #000;
+}
+.footer-address-wrapper ul {
+    list-style-type: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.footer-address-wrapper ul li {
+    position: relative;
+    padding-bottom: 5px;
+    padding-left: 35px;
+}
+.footer-address-wrapper ul li i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: 3px;
+}
+.bbb {
+    padding: 34px 21px;
+    border: 1px solid red;
 }
