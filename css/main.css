@@ -17,7 +17,7 @@ body {
 ------------------------------------------------------ */
 
 .footer-main-wrapper {
-    background: #c1c1c1;
+    background: #333;
     padding-top: 89px;
 }
 .aa {
@@ -51,35 +51,35 @@ body {
     left: 0;
     top: 3px;
 }
-.bbb {
+/* Footer bottom social link style sheet Started */
+.footer-social-link {
     padding: 34px 13px;
-
     text-align: center;
 }
-.bbb > div> i {
+.footer-social-link > div> i {
     font-size: 18px;
     border: 1px solid black;
     padding: 8px;
     border-radius: 50%;
     margin-right: 5px;
 }
-.bbb:nth-child(1):hover {
+.footer-social-link:nth-child(1):hover {
     color: #c1c1c1;
     background: #3b5998;
 }
-.bbb:nth-child(2):hover {
+.footer-social-link:nth-child(2):hover {
     color: #c1c1c1;
     background: #00acee;
 }
-.bbb:nth-child(3):hover {
+.footer-social-link:nth-child(3):hover {
     color: #c1c1c1;
-    background:  #9cdaf1 ;
+    background: #333 ;
 }
-.bbb:nth-child(4):hover {
+.footer-social-link:nth-child(4):hover {
     color: #000;
     background: #f48024;
 }
-.bbb:nth-child(5):hover {
+.footer-social-link:nth-child(5):hover {
     color: #c1c1c1;
     background: #0077B5;
 }
