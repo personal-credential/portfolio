@@ -33,7 +33,7 @@ body {
 }
 .footer-adjust ul li a {
     text-decoration: none;
-    color: #000;
+    color: #c1c1c1;
 }
 .footer-address-wrapper ul {
     list-style-type: none;
@@ -64,22 +64,22 @@ body {
     margin-right: 5px;
 }
 .footer-social-link:nth-child(1):hover {
-    color: #c1c1c1;
+    color: #000;
     background: #3b5998;
 }
 .footer-social-link:nth-child(2):hover {
-    color: #c1c1c1;
+    color: #000;
     background: #00acee;
 }
 .footer-social-link:nth-child(3):hover {
-    color: #c1c1c1;
-    background: #333 ;
+    color: #000;
+    background: #333;
 }
 .footer-social-link:nth-child(4):hover {
     color: #000;
     background: #f48024;
 }
 .footer-social-link:nth-child(5):hover {
-    color: #c1c1c1;
+    color: #000;
     background: #0077B5;
 }
