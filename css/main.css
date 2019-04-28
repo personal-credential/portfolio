@@ -32,11 +32,11 @@ body {
 .footer-adjust ul li a {
     text-decoration: none;
     color: #c1c1c1;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.3s;
 }
 .footer-adjust ul li a:hover {
     color: #f48024;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.3s;
 }
 .footer-address-wrapper ul {
     list-style-type: none;
