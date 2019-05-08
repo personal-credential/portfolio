@@ -6,11 +6,27 @@
     font-family: Intro-Light;
     src: url(/fonts/Intro-Light.otf)
 }
+/* ----------------------------------------------------
+
+        All general style sheet section
+
+-------------------------------------------------------*/
 body {
     font-family: Intro-Light;
     font-size: 17px;
 }
-
+/* Default padding remover */
+.remover {
+    padding: 0;
+}
+.dark-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
 /* ---------------------------------------------------
 
             Header Section style started  
@@ -38,6 +54,41 @@ body {
     background: #f48024;
     padding: 0;
 }
+/* --------------------------------------------------
+
+            About us style section started
+
+----------------------------------------------------- */
+.profile-img {
+    padding: 55px 0;
+}
+.profile-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px 2px #c1c1c1;
+}
+.profile-img h1 {
+    font-size: 34px;
+    font-weight: 300;
+    color: #888;
+    margin-top: 21px;
+    margin-bottom: 13px;
+}
+.profile-img p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #888;
+}
+.main-about-us-hero {
+    background-color: #c1c1c1;
+    padding: 89px 13px;
+    -webkit-clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+            clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+}
+
+
+
 
 
 /* ---------------------------------------------------
